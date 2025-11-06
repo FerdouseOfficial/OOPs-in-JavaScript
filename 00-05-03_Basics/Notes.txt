@@ -19,3 +19,18 @@ OOPs is also a way of Programming.
 7. learn about constructor function factory function. okay
 
 8. learn about hoisting in function
+9. What is instance 
+
+
+
+=============================================================
+The different ways to create and use objects in JavaScript--- these are the foundation for understanding OOp in JS:-
+
+    1. Object Literal
+    2. Factory Functiona
+    3. Constructor Function
+    4. class Syntax
+=================================================================
+
+10. What is sytactic sugar?
+
