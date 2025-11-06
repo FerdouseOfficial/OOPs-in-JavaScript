@@ -1,0 +1,13 @@
+// The Pre-Requisits
+
+
+------------------- Programming Paradigm ----------------- way of Programming.
+    1. You need to learn about Programming Paradigm. This is so Important okay.
+        a. Learn what is Imperative way of Programming 
+        b. What is Declarative way of Programming.
+            i. function Programming exist in here.                   remember at first react was based on OOPs I mean in class and object now its in Functional Programming.
+            
+    2. Learn about Functional Programming.
+
+
+OOPs is also a way of Programming.
