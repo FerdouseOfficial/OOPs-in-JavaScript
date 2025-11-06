@@ -11,3 +11,6 @@
 
 
 OOPs is also a way of Programming.
+
+3. Learn about Date okay
+4. what is constructor function
