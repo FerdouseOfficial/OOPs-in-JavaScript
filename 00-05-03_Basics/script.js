@@ -12,13 +12,21 @@ body.style.color = "#eee"
 let date = new Date()
 console.log(date);
 
-let obj = {
+let student = {
     name: "MKL",
     age: 21,
     passion: "bkaiti",
     introduceMySelf: function(){
+        // console.log(this)
         console.log("hello");
     }
+
+    // practice the concpet of This Keyword
+
+    // introduceMySelf: function(){
+    //     console.log(`My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`)
+    // }
 }
 
-console.log(obj)  
+// console.log(student)  
+student.introduceMySelf()

@@ -14,3 +14,8 @@ OOPs is also a way of Programming.
 
 3. Learn about Date okay
 4. what is constructor function
+5. Learn about BOM not DOM. Also learn in-depth DOM okay.
+6. Learn about all scopes okay. Lexical, local, global etc
+7. learn about constructor function factory function. okay
+
+8. learn about hoisting in function
