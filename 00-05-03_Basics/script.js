@@ -54,10 +54,7 @@ body.style.color = "#eee";
 // student2.introduceMySelf();
 // student3.introduceMySelf();
 
-
 // theere is simle way to avoid this large code here is how:-
-
-
 
 // =============================================================
 // The different ways to create and use objects in JavaScript--- these are the foundation for understanding OOp in JS:-
@@ -80,11 +77,24 @@ body.style.color = "#eee";
 //   },
 // };
 
-                    // 2. Factory function 
+// 2. Factory function
+// we can also pass parameter here
 
-function Student(){
-    return {}
+// POINT: -remember if the paramerter name or the Key: value pair name is same you can just write one 
+function Student(name, age, passion) {
+  return {
+    name, // read POINT in up what I write in comment. No confus
+    age, // read POINT in up what I write in comment. No confus
+    passion,  // read POINT in up what I write in comment. No confus
+    introduceMySelf: function () {
+      console.log(
+        `My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`
+      );
+    },
+  };
 }
 
-let result = Student();
-console.log(result)
+let s1 = Student('sara', 19, "Fucka");
+// console.log(result);
+// s1.introduceMySelf()  
+  
