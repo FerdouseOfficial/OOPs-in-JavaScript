@@ -52,3 +52,5 @@ The different ways to create and use objects in JavaScript--- these are the foun
 18. What is instance in Js?
 
 19. Learn about Prototype okay? 
+
+20. Learn about different different functions okay. How many types of function and practice them okay.
