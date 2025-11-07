@@ -80,12 +80,12 @@ body.style.color = "#eee";
 // 2. Factory function
 // we can also pass parameter here
 
-// POINT: -remember if the paramerter name or the Key: value pair name is same you can just write one 
+// POINT: -remember if the paramerter name or the Key: value pair name is same you can just write one
 function Student(name, age, passion) {
   return {
     name, // read POINT in up what I write in comment. No confus
     age, // read POINT in up what I write in comment. No confus
-    passion,  // read POINT in up what I write in comment. No confus
+    passion, // read POINT in up what I write in comment. No confus
     introduceMySelf: function () {
       console.log(
         `My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`
@@ -94,7 +94,10 @@ function Student(name, age, passion) {
   };
 }
 
-let s1 = Student('sara', 19, "Fucka");
+let s1 = Student("sara", 19, "Fucka");
 // console.log(result);
-// s1.introduceMySelf()  
-  
+// s1.introduceMySelf()
+
+// but the problem here in the FACTORY FUNCITON IS we Doesn't involve protypes by default(uinless we manually set htem)
+
+// What is Prototype and this staff we will clear it up later not now or we will be cofused. We will follow the 4 steps now okay
