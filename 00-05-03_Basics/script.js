@@ -81,20 +81,20 @@ body.style.color = "#eee";
 // we can also pass parameter here
 
 // POINT: -remember if the paramerter name or the Key: value pair name is same you can just write one
-function Student(name, age, passion) {
-  return {
-    name, // read POINT in up what I write in comment. No confus
-    age, // read POINT in up what I write in comment. No confus
-    passion, // read POINT in up what I write in comment. No confus
-    introduceMySelf: function () {
-      console.log(
-        `My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`
-      );
-    },
-  };
-}
+// function Student(name, age, passion) {
+//   return {
+//     name, // read POINT in up what I write in comment. No confus
+//     age, // read POINT in up what I write in comment. No confus
+//     passion, // read POINT in up what I write in comment. No confus
+//     introduceMySelf: function () {
+//       console.log(
+//         `My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`
+//       );
+//     },
+//   };
+// }
 
-let s1 = Student("sara", 19, "Fucka");
+// let s1 = Student("sara", 19, "Fucka");
 // console.log(result);
 // s1.introduceMySelf()
 
@@ -105,3 +105,22 @@ let s1 = Student("sara", 19, "Fucka");
 
 // ---------------------------- 3. Constructor Function ------------
 
+function Student(name, age, passion) {
+//( return {
+  //   name, // read POINT in up what I write in comment. No confus
+  //   age, // read POINT in up what I write in comment. No confus
+  //   passion, // read POINT in up what I write in comment. No confus
+  //   introduceMySelf: function () {
+  //     console.log(
+  //       `My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`
+  //     );
+  //   },
+  // };)
+
+  // we don't need those commented out part I don't delete it just because of Difference shwowing.
+
+  console.log(this);
+  
+}
+
+Student()

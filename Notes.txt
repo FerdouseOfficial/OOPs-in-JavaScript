@@ -1,5 +1,6 @@
 // The Pre-Requisits
 
+// This is The notes for whole Chapters okay.
 
 ------------------- Programming Paradigm ----------------- way of Programming.
     1. You need to learn about Programming Paradigm. This is so Important okay.
@@ -35,3 +36,5 @@ The different ways to create and use objects in JavaScript--- these are the foun
 10. What is sytactic sugar?
 
 11. What is P.B.L (Prototype Based Language). Is JavaScript is a protype based language
+
+12. Learn about window Object
