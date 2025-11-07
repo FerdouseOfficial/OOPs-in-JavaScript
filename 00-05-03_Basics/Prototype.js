@@ -44,26 +44,57 @@
 
 // By creating a back system okay:---------
 
-function BankAccount(holdersName, balance = 0) {
-  (this.holdersName = holdersName),
-    (this.balance = balance),
-    (BankAccount.prototype.Deposit = function (balance) {
-      this.balance += balance;
-    }),
-    BankAccount.prototype.Withdraw = function (balance) {
-      this.balance -= balance;
-    };
-}
+// function BankAccount(holdersName, balance = 0) {
+//   (this.holdersName = holdersName),
+//     (this.balance = balance),
+//     (BankAccount.prototype.Deposit = function (balance) {
+//       this.balance += balance;
+//     }),
+//     BankAccount.prototype.Withdraw = function (balance) {
+//       this.balance -= balance;
+//     };
+// }
 
-let Arafat = new BankAccount("Arafat Ali", 150);
-console.log(Arafat)
-// Arafat.Deposit(400);
+// let Arafat = new BankAccount("Arafat Ali", 150);
 // console.log(Arafat)
+// // Arafat.Deposit(400);
+// // console.log(Arafat)
 
-let Kuhili = new BankAccount("Kuhili Khatun", 1000);
-console.log(Kuhili);
-// Kuhili.Withdraw(200);
+// let Kuhili = new BankAccount("Kuhili Khatun", 1000);
 // console.log(Kuhili);
+// // Kuhili.Withdraw(200);
+// // console.log(Kuhili);
 
+// let kakuli = new BankAccount("Kakuli Khatun", 1300);
+// console.log(kakuli);
+// let Rahima = new BankAccount("Rahima Khatun", 120);
+// console.log(Rahima);
+
+
+                                
+
+                            // Always remember ProtoType is a memory efficient code okay // 
+                    // 1. If you write prototype function outside and a function inside the function or object class the higher priority will be the inside function. That will work
+                    // 2. 
 
 // Try to convert every code you write in TypeScript okay:- 
+
+//                              writing bankAccount code using classes and Object okay
+
+class BankAccount {
+    constructor(holdersName, balance) {
+        this.holdersName = holdersName;
+        this.balance = balance;
+        BankAccount.prototype.Deposit = function(balance) {
+            this.balance += balance;
+        };
+        BankAccount.prototype.Withdraw = function(balance) {
+            this.balance -= balance;
+        }
+    }
+}
+
+let mijanur = new BankAccount("Mijan", "100");
+console.log(mijanur)
+let Iftekher = new BankAccount("ifte", "200");
+console.log(Iftekher)
