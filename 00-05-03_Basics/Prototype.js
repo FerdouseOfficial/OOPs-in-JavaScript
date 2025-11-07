@@ -66,4 +66,4 @@ console.log(Kuhili);
 // console.log(Kuhili);
 
 
-// Try to convert every code you write in TypeScript okay
+// Try to convert every code you write in TypeScript okay:- 
