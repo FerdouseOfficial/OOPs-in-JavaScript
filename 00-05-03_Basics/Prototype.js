@@ -50,21 +50,20 @@ function BankAccount(holdersName, balance = 0) {
     (BankAccount.prototype.Deposit = function (balance) {
       this.balance += balance;
     }),
-    BankAccount.prototype,
-    (Withdraw = function (balance) {
+    BankAccount.prototype.Withdraw = function (balance) {
       this.balance -= balance;
-    });
+    };
 }
 
 let Arafat = new BankAccount("Arafat Ali", 150);
 console.log(Arafat)
-Arafat.Deposit(400);
-console.log(Arafat)
+// Arafat.Deposit(400);
+// console.log(Arafat)
 
 let Kuhili = new BankAccount("Kuhili Khatun", 1000);
 console.log(Kuhili);
-Kuhili.Withdraw(200);
-console.log(Kuhili);
+// Kuhili.Withdraw(200);
+// console.log(Kuhili);
 
 
 // Try to convert every code you write in TypeScript okay
