@@ -1,6 +1,6 @@
-let body = document.querySelector("body");
-let style = (body.style.backgroundColor = "black");
-body.style.color = "#eee";
+// let body = document.querySelector("body");
+// let style = (body.style.backgroundColor = "black");
+// body.style.color = "#eee";
 
 // Learnin the prerequisits
 
@@ -102,11 +102,10 @@ body.style.color = "#eee";
 
 // What is Prototype and this staff we will clear it up later not now or we will be cofused. We will follow the 4 steps now okay
 
-
 // ---------------------------- 3. Constructor Function ------------
 
 function Student(name, age, passion) {
-//( return {
+  //( return {
   //   name, // read POINT in up what I write in comment. No confus
   //   age, // read POINT in up what I write in comment. No confus
   //   passion, // read POINT in up what I write in comment. No confus
@@ -119,8 +118,17 @@ function Student(name, age, passion) {
 
   // we don't need those commented out part I don't delete it just because of Difference shwowing.
 
-  console.log(this);
-  
+  // console.log(this);
+
+  // -----------------------------
+  this.s1 = name,
+  this.s2 = age,
+  this.s3 = passion
+  return this
 }
 
-Student()
+let result = Student("Hasan", 15, "Hacking ");
+console.log(result );
+
+let r2 = Student("rohan", 18, "Rozario");
+
