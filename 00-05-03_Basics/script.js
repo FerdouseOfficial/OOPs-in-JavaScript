@@ -105,22 +105,22 @@
 // ---------------------------- 3. Constructor Function ------------
 
 // function Student(name, age, passion) {
-  //( return {
-  //   name, // read POINT in up what I write in comment. No confus
-  //   age, // read POINT in up what I write in comment. No confus
-  //   passion, // read POINT in up what I write in comment. No confus
-  //   introduceMySelf: function () {
-  //     console.log(
-  //       `My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`
-  //     );
-  //   },
-  // };)
+//( return {
+//   name, // read POINT in up what I write in comment. No confus
+//   age, // read POINT in up what I write in comment. No confus
+//   passion, // read POINT in up what I write in comment. No confus
+//   introduceMySelf: function () {
+//     console.log(
+//       `My name is ${this.name}. My age is ${this.age}. My passion is ${this.passion}`
+//     );
+//   },
+// };)
 
-  // we don't need those commented out part I don't delete it just because of Difference shwowing.
+// we don't need those commented out part I don't delete it just because of Difference shwowing.
 
-  // console.log(this);
+// console.log(this);
 
-  // -----------------------------
+// -----------------------------
 //   this.s1 = name,
 //   this.s2 = age,
 //   this.s3 = passion
@@ -134,9 +134,9 @@
 // console.log(r2)
 
 // here in this construction way we have a problem of OVER-RIDING VALUE
-// To fix that we have to use new keyword here okay 
+// To fix that we have to use new keyword here okay
 
-// just like this 
+// just like this
 
 // let result = new Student("Hasan", 15, "Hacking ");
 // console.log(result );
@@ -144,27 +144,24 @@
 // let r2 = new Student("rohan", 18, "Rozario");
 // console.log(r2)
 
-
 // ------------------------------------------ 04: Class Syntax -------------------------------------------------------
 
 // Class Syntax (es6)
 
+// class Student {
+// name = "Manas";
+// age = 19;          // We don't need it now okay
+// passion = "coding";
+//   constructor(name, age, passion) {
+//     this.name = name,
+//     this.age = age,
+//     this.passion = passion
+//   }
+//   greet() {
+//     console.log(`Hey, I'm ${this.name}`);
+//   }
 
-class Student {
-  // name = "Manas";
-  // age = 19;          // We don't need it now okay
-  // passion = "coding";
-  constructor(name, age, passion) {
-    this.name = name,
-    this.age = age,
-    this.passion = passion
-  }
-  greet() {
-    console.log(`Hey, I'm ${this.name}`);
-  }
-   
-}
+// }
 
-let s1 = new Student("Lion", 12, "Playing")
-console.log(s1);
-
+// let s1 = new Student("Lion", 12, "Playing")
+// console.log(s1);
