@@ -41,3 +41,14 @@ The different ways to create and use objects in JavaScript--- these are the foun
 
 13. Learn In-depth about this and new keyword in JavaScript.
 14. Learn what is Constructor function okay try to learn it very well and deep dive into it okay. Practice it so many times okay?
+
+
+15. Learn many things about typeof okay. See everythings type and learn why they are that type showing?
+
+16. Learn about the scopes of Let, Var, Const also learn about Scopes concepts in JS and parctice a lot okay.
+
+17. Learn what is the need of constructor in Class? this is very imporatnt for me to know this confuse me so much okay?
+
+18. What is instance in Js?
+
+19. Learn about Prototype okay? 
