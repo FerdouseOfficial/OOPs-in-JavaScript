@@ -31,3 +31,17 @@ class Car {
 let Bmw = new Car("BMW", "Dark Blue", 45);
 let Buggati = new Car("Buggati", "Brown", 5);
 let Toyota = new Car("Toyota", "Silver", 28);
+
+console.log(Bmw);
+console.log(Buggati);
+console.log(Toyota);
+
+
+// ---------------------------------------------------------------------------------------/
+
+                                // Constructor
+            // 1. A constructor is a special method within a class that is automatically called when a new object instaance of hteat clas is created.
+            // 2. It is primarily used to initialize object properties with specific values or perform setup tasks for the object. 
+
+
+//========================================================================================
