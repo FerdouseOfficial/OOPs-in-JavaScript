@@ -34,3 +34,4 @@ The different ways to create and use objects in JavaScript--- these are the foun
 
 10. What is sytactic sugar?
 
+11. What is P.B.L (Prototype Based Language). Is JavaScript is a protype based language

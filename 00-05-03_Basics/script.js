@@ -101,3 +101,7 @@ let s1 = Student("sara", 19, "Fucka");
 // but the problem here in the FACTORY FUNCITON IS we Doesn't involve protypes by default(uinless we manually set htem)
 
 // What is Prototype and this staff we will clear it up later not now or we will be cofused. We will follow the 4 steps now okay
+
+
+// ---------------------------- 3. Constructor Function ------------
+
