@@ -55,3 +55,10 @@ The different ways to create and use objects in JavaScript--- these are the foun
 
 20. Learn about different different functions okay. How many types of function and practice them okay.
 21. learn In-depth about protype?
+
+22. Practice the map filter and reduce okay
+
+23. Functional Programming full course in JavaScript okay search it and see and practice a lot about it okay.
+24. See Sheriyans Coding School DSA series of JavaScript okay.
+
+25. Why by default the Prototype is stick with everythings in js try to understand it deeply okay

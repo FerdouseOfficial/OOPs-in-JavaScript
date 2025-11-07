@@ -1,3 +1,9 @@
+// ---------------------------------------- Prototype ================================
+
+// 1. Every object has an internal link to another object called its prototype.
+// 2. When you accesss a propety or method, JavaScript looks for it in the object
+// a. If not found, it climbs the prototype chain to find it.
+
 // function Student(name, age) {
 //   (this.name = name), (this.age = age);
 //   this.introduceMyself = function () {
@@ -70,31 +76,33 @@
 // let Rahima = new BankAccount("Rahima Khatun", 120);
 // console.log(Rahima);
 
+// Always remember ProtoType is a memory efficient code okay //
+// 1. If you write prototype function outside and a function inside the function or object class the higher priority will be the inside function. That will work
+// 2. We don't need to manually add method to prototype in classes it by default do it
 
-                                
-
-                            // Always remember ProtoType is a memory efficient code okay // 
-                    // 1. If you write prototype function outside and a function inside the function or object class the higher priority will be the inside function. That will work
-                    // 2. 
-
-// Try to convert every code you write in TypeScript okay:- 
+// Try to convert every code you write in TypeScript okay:-
 
 //                              writing bankAccount code using classes and Object okay
 
 class BankAccount {
-    constructor(holdersName, balance) {
-        this.holdersName = holdersName;
-        this.balance = balance;
-        BankAccount.prototype.Deposit = function(balance) {
-            this.balance += balance;
-        };
-        BankAccount.prototype.Withdraw = function(balance) {
-            this.balance -= balance;
-        }
-    }
+  // but we have to writhe the method name into the constructor okay as a parameter
+  constructor(holdersName, balance, Deposit, Withdraw) {
+    this.holdersName = holdersName;
+    this.balance = balance;
+    // We don't need to manually add method to prototype in classes it by default do it
+    // but we have to writhe the method name into the constructor okay as a parameter
+    Deposit = function (balance) {
+      this.balance += balance;
+    };
+    // We don't need to manually add method to prototype in classes it by default do it
+    // Just like this okay.
+    Withdraw = function (balance) {
+      this.balance -= balance;
+    };
+  }
 }
 
 let mijanur = new BankAccount("Mijan", "100");
-console.log(mijanur)
+console.log(mijanur);
 let Iftekher = new BankAccount("ifte", "200");
-console.log(Iftekher)
+console.log(Iftekher);
