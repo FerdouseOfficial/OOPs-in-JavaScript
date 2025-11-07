@@ -3,6 +3,9 @@
 // This is The notes for whole Chapters okay.
 
 ------------------- Programming Paradigm ----------------- way of Programming.
+
+// Programming Paradigm:- means Programming karneka ak tarika okay
+
     1. You need to learn about Programming Paradigm. This is so Important okay.
         a. Learn what is Imperative way of Programming 
         b. What is Declarative way of Programming.
@@ -62,3 +65,6 @@ The different ways to create and use objects in JavaScript--- these are the foun
 24. See Sheriyans Coding School DSA series of JavaScript okay.
 
 25. Why by default the Prototype is stick with everythings in js try to understand it deeply okay
+
+26. Learn about JavaScript Prototype-based model okay. Learn it for Interview prep
+
