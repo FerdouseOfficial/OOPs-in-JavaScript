@@ -38,3 +38,6 @@ The different ways to create and use objects in JavaScript--- these are the foun
 11. What is P.B.L (Prototype Based Language). Is JavaScript is a protype based language
 
 12. Learn about window Object
+
+13. Learn In-depth about this and new keyword in JavaScript.
+14. Learn what is Constructor function okay try to learn it very well and deep dive into it okay. Practice it so many times okay?

@@ -127,8 +127,23 @@ function Student(name, age, passion) {
   return this
 }
 
-let result = Student("Hasan", 15, "Hacking ");
+// let result = Student("Hasan", 15, "Hacking ");
+// console.log(result );
+
+// let r2 = Student("rohan", 18, "Rozario");
+// console.log(r2)
+
+// here in this construction way we have a problem of OVER-RIDING VALUE
+// To fix that we have to use new keyword here okay 
+
+// just like this 
+
+let result = new Student("Hasan", 15, "Hacking ");
 console.log(result );
 
-let r2 = Student("rohan", 18, "Rozario");
+let r2 = new Student("rohan", 18, "Rozario");
+console.log(r2)
+
+
+// ------------------------------------------ 04: Class Syntax -------------------------------------------------------
 
