@@ -14,10 +14,13 @@
 
 // start practicing okay // 
 
+// Please try to add extra feature here okay
+// Also convert them into typescript code 
 class Car{
     constructor(brand){
         this.brand = brand;
     }
+
 
     start() {
         console.log("Car is starting.......... ");
