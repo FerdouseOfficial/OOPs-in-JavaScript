@@ -33,50 +33,62 @@
 
 //                      Abstraction
 
-class Car {
-  fuel = 100;
-  burnFuel() {
-    this.fuel -= 1;
-  }
+// Most beginner confuse and make mistake About " they say Abstraction and Encapsulation are the same that's not right"
 
-  start() {
-    console.log("Car is starting..........");
+// 1. Abstraction only hide the complexity of program for user
+// 2. Encapsulation don't hide its make things more secure by providing them accessing duty. by adding # hash tag
+
+// class Car {
+//   #fuel = 100;
+//   #burnFuel() {
+//     this.#fuel -= 1;
+//   }
+
+//   #start() {
+//     this.#burnFuel()
+//     console.log("Car is starting..........");
+//   }
+// }
+
+// let buggati = new Car();
+
+// console.log(buggati)
+
+// buggati.start()
+// // buggati.burnFuel()
+// console.log(buggati)
+
+///    One more Example here ///////////
+
+// bank account using Class
+
+// Remember we cannot declare # to a parameter
+
+class BankAccount {
+  #balance = 0;
+  constructor(holdersName, balance = 0) {
+    this.holdersName = holdersName;
+    this.#balance = balance;
+  }
+  Deposit(amount) {
+    this.#balance += amount;
+  }
+  Withdraw(amount) {
+    this.#balance -= amount;
+  }
+  setBalance(balance) {
+    if (isNaN(balance)) {
+      console.error("invalid balance");
+      return;
+    }
+    console.log("Balance set successfully");
+    this.balance = balance;
+  }
+  getBalance() {
+    return this.#balance; 
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// band account using Class
-
-// class BankAccount {
-//     constructor(holdersName, Balance = 0) {
-//         this.holdersName = holdersName;
-//         this.Balance = Balance;
-//     }
-//     Deposit(Balance) {
-//         this.Balance += Balance;
-//     }
-//     Withdraw(Balance) {
-//         this.Balance -= Balance;
-//     }
-// }
-
-// let manas = new BankAccount("Manash", 200)
-// console.log(manas);
+let manas = new BankAccount("Manash", 200);
+console.log(manas);
+console.log("Balance:", manas.getBalance());

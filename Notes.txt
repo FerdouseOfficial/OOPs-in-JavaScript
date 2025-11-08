@@ -68,3 +68,5 @@ The different ways to create and use objects in JavaScript--- these are the foun
 
 26. Learn about JavaScript Prototype-based model okay. Learn it for Interview prep
 
+
+27. Learn about set and get (setter and getter in Js okay)
