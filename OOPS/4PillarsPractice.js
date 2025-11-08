@@ -31,9 +31,20 @@
 
 //  If you ever have any problem to understand go for this 2 hours 4 minutes Times Stamps okay ========================================================================================================================================================================================================================================
 
-
-
 //                      Abstraction
+
+class Car {
+  fuel = 100;
+  burnFuel() {
+    this.fuel -= 1;
+  }
+
+  start() {
+    console.log("Car is starting..........");
+  }
+}
+
+
 
 
 
@@ -54,18 +65,18 @@
 
 // band account using Class
 
-class BankAccount {
-    constructor(holdersName, Balance = 0) {
-        this.holdersName = holdersName;
-        this.Balance = Balance;
-    }
-    Deposit(Balance) {
-        this.Balance += Balance;
-    }
-    Withdraw(Balance) {
-        this.Balance -= Balance;
-    }
-}
+// class BankAccount {
+//     constructor(holdersName, Balance = 0) {
+//         this.holdersName = holdersName;
+//         this.Balance = Balance;
+//     }
+//     Deposit(Balance) {
+//         this.Balance += Balance;
+//     }
+//     Withdraw(Balance) {
+//         this.Balance -= Balance;
+//     }
+// }
 
-let manas = new BankAccount("Manash", 200)
-console.log(manas);
+// let manas = new BankAccount("Manash", 200)
+// console.log(manas);
