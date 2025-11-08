@@ -33,11 +33,7 @@
 
 
 
-
-
-
-
-
+//                      Abstraction
 
 
 
@@ -58,3 +54,18 @@
 
 // band account using Class
 
+class BankAccount {
+    constructor(holdersName, Balance = 0) {
+        this.holdersName = holdersName;
+        this.Balance = Balance;
+    }
+    Deposit(Balance) {
+        this.Balance += Balance;
+    }
+    Withdraw(Balance) {
+        this.Balance -= Balance;
+    }
+}
+
+let manas = new BankAccount("Manash", 200)
+console.log(manas);
