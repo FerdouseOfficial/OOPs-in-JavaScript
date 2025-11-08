@@ -85,10 +85,14 @@ class BankAccount {
     this.balance = balance;
   }
   getBalance() {
-    return this.#balance; 
+    return this.#balance;
   }
 }
 
 let manas = new BankAccount("Manash", 200);
 console.log(manas);
 console.log("Balance:", manas.getBalance());
+
+// Use abstraction to make the system easy to use.
+
+// Use encapsulation to make he ststem safe secure.
