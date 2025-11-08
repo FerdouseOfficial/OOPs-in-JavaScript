@@ -48,5 +48,5 @@ class ElectricCar extends Car {
 }
 
 const Tesla = new ElectricCar("Tesla", 80);
-
 console.log(Tesla)
+Tesla.drive()

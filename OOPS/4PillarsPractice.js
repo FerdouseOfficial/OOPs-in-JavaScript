@@ -64,34 +64,34 @@
 
 // Remember we cannot declare # to a parameter
 
-class BankAccount {
-  #balance = 0;
-  constructor(holdersName, balance = 0) {
-    this.holdersName = holdersName;
-    this.#balance = balance;
-  }
-  Deposit(amount) {
-    this.#balance += amount;
-  }
-  Withdraw(amount) {
-    this.#balance -= amount;
-  }
-  setBalance(balance) {
-    if (isNaN(balance)) {
-      console.error("invalid balance");
-      return;
-    }
-    console.log("Balance set successfully");
-    this.balance = balance;
-  }
-  getBalance() {
-    return this.#balance;
-  }
-}
+// class BankAccount {
+//   #balance = 0;
+//   constructor(holdersName, balance = 0) {
+//     this.holdersName = holdersName;
+//     this.#balance = balance;
+//   }
+//   Deposit(amount) {
+//     this.#balance += amount;
+//   }
+//   Withdraw(amount) {
+//     this.#balance -= amount;
+//   }
+//   setBalance(balance) {
+//     if (isNaN(balance)) {
+//       console.error("invalid balance");
+//       return;
+//     }
+//     console.log("Balance set successfully");
+//     this.balance = balance;
+//   }
+//   getBalance() {
+//     return this.#balance;
+//   }
+// }
 
-let manas = new BankAccount("Manash", 200);
-console.log(manas);
-console.log("Balance:", manas.getBalance());
+// let manas = new BankAccount("Manash", 200);
+// console.log(manas);
+// console.log("Balance:", manas.getBalance());
 
 // Use abstraction to make the system easy to use.
 
