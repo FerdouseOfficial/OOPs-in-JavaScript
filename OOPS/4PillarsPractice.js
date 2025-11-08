@@ -29,4 +29,32 @@
 // 3. Inheritance == using properties and methods from anotehr object/class. :- Its comes from DRY- (Don't Repeat Your Code ) concepts so that we don't need to write same thing so many times okay
 // 4. Polymorphism == same method behaving differently based on the object.
 
-//  If you ever have any problem to understand go for this 2 hours 4 minutes Times Stamps okay ======================================================================================================================================================================================
+//  If you ever have any problem to understand go for this 2 hours 4 minutes Times Stamps okay ========================================================================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// band account using Class
+
