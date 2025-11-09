@@ -70,3 +70,10 @@ The different ways to create and use objects in JavaScript--- these are the foun
 
 
 27. Learn about set and get (setter and getter in Js okay)
+
+28. Read the key characteristics of constructors: pdf okay which is     provided by the tutorial.
+    make sure to read it also imporatntly read the Derived class constructor okay.
+
+29. Learn about Prototype in-depth I am telling you again this is Important for Interview
+
+30.
