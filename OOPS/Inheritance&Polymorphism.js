@@ -97,4 +97,10 @@ console.log(m2)
 console.log(m3)
 
 
- 
+//                      Singleton Object
+
+// a singleton Object is an object hat is created only once andused everywhere in your code.
+
+// It ensure that only one instance of that object exist during the life time of the applicaiton.
+
+// SingleTon object is just like object literal we cant create any instance using both of them (singleton/ Object literal)
