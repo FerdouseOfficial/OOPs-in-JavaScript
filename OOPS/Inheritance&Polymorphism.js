@@ -1,4 +1,4 @@
-// Inheritance and Polymorphism :------------
+// Inheritance and Poly3orphism :------------
 
 // Inheritance is an  concept where one class (child) can acquire properties and methods of another class (parent).
 
@@ -69,4 +69,31 @@
 // On a music player, it plays the music
 // On a game, it starts the game okay
 
-    
+class MediaPlayer {
+  play() {
+    console.log("Play media");
+  }
+}
+
+class Music extends MediaPlayer {
+  play() {
+    console.log("Play music");
+  }
+}
+
+class Video extends MediaPlayer {
+  play() {
+    console.log("Play video");
+  }
+}
+
+
+let m1 = MediaPlayer()
+let m2 = Music()
+let m3 = Video()
+
+console.log(m1)
+console.log(m2)
+console.log(m3)
+
+
