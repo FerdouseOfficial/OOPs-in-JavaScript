@@ -16,6 +16,9 @@
 
 // Please try to add extra feature here okay
 // Also convert them into typescript code 
+
+// we can call it parent class
+// Or we can call it supe class 
 class Car{
     constructor(brand){
         this.brand = brand;
@@ -33,9 +36,12 @@ class Car{
     }
 }
 
+// the ElectricCar is a derived class which is build from the CAR okay
+// we can call it child class or derived class okay
 class ElectricCar extends Car {
-    constructor(brand, battery) {
-        this.brand = brand;
+    constructor(brand, color,battery) {
+        super(brand, color) // call parent using super keyword
+        // super keyword is used to call the parent class and send them value.
         this.battery = battery;
     }
     drive() {
